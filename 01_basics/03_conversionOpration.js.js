@@ -1,3 +1,4 @@
+/*
 let score = "33"
 
 console.log(typeof score);
@@ -24,7 +25,7 @@ console.log(typeof vb);
 console.log(vb); 
 // true => 1; false=> 0
 
-
+*/
 
 
 let isLoggedIn = ""
@@ -35,4 +36,13 @@ console.log(booleanIsLoggedIn);
 // " " => false
 //"hitesh" => true
 
+// ************ Oprations ************
+ let value = 3
+ let neqValue = -value
+ console.log(neqValue);
 
+let str1 = "Hello"
+let str2 = "Ankit"
+
+let str3 = str1 + str2
+console.log(str3)
