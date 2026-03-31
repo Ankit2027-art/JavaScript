@@ -6,12 +6,29 @@ const repoCount = 50;
 // String intropolation
 console.log(`Hello my name is: ${name} and my repocount is ${repoCount}`);
 
-const gameName = new String("Ankitt");
+const gameName = new String("Ankitt-Patel");
 
 
 console.log("The Game name is:",gameName[0]);
-
 console.log(gameName.__proto__);
+
+console.log(gameName.length);
+console.log(gameName.toUpperCase());
+console.log(gameName.charAt(2));
+console.log(gameName.indexOf('t'));
+
+//slicing
+const newString = gameName.substring(0,4)
+console.log(newString)
+
+const a =gameName.slice(-10,5)
+console.log(a)
+const b =gameName.slice(-1,1)
+console.log(b)
+
+
+
+
 
 
 
