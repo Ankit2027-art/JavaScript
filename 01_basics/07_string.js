@@ -27,6 +27,23 @@ const b =gameName.slice(-1,1)
 console.log(b)
 
 
+const newStringOne = "    Ankit   "
+console.log(newStringOne);
+console.log(newStringOne.trim());
+// trim remove spaces
+
+
+const url = "https://ankit.com/ankit%20Patel"
+
+//replace word in url
+console.log(url.replace('%20','_'))
+
+//find specific word in url
+console.log(url.includes('Ankit'))
+
+console.log(gameName.split('-'))
+
+
 
 
 
