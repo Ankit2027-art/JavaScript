@@ -41,10 +41,18 @@ console.log(Math.hypot(3, 4));// 5   (√(3²+4²))
 console.log(Math.max(10,50,87,65));
 console.log(Math.min(10,80,10,50));
 console.log(Math.random()); //0 se 1 ke beech random number
+console.log(Math.random()*1 + 1);
+const min = 10
+const max = 20
+
+// gives random num between min& max
+console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+
+
 
 // ++++++++ Log & Exponential ++++++++
 console.log(Math.exp(1));         // e^1 ≈ 2.718
-console.log(Math.log(10);       // natural log
+console.log(Math.log(10));       // natural log
 console.log(Math.log2(8));    // 3
-console.log(Math.log10(100))    // 2
+console.log(Math.log10(100));   // 2
 
